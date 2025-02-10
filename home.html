@@ -40,12 +40,17 @@
         </ul>
       </nav>
     </header>
+
+    <!-- WELCOME / HERO  -->
     <main id="welcome-main">
       <section id="welcome-section">
         <h1 id="welcome-title">
-          Hey, I'm learning <br /><span id="welcome-title-dev"
-            >Full Stack Developer</span
-          >
+          Hey, I'm learning <br />
+          <span id="welcome-title-dev">
+            <span class="full">Full</span>
+            <span class="stack">Stack</span>
+            <span class="dev">Developer</span>
+          </span>
         </h1>
         <p id="welcome-para">
           This is <span class="welcome-para-span">my journey</span> of learning
@@ -77,6 +82,8 @@
         <img src="./images/website-builder.svg" alt="WebsiteBuilder" />
       </section>
     </main>
+
+    <!-- MArquee  -->
     <div class="marquee">
       <div class="marquee-content">
         <!-- <p>HTML</p>
@@ -523,13 +530,80 @@
 
     <!-- CONTACT -->
     <section id="contact">
-      <h2>Contact</h2>
-      <p>Provide your contact information here.</p>
+      <section id="contact-form">
+        <h3>CONTACT FORM</h3>
+        <form id="form">
+          <label for="name">Your Name:</label>
+          <input
+            class="input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+          <label for="email">Your Email:</label>
+          <input
+            class="input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <label for="message">Message:</label>
+          <textarea
+            class="input-msg"
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+          <button id="submit">Submit</button>
+        </form>
+      </section>
+      <section id="contact-social">
+        <h3>About Me</h3>
+        <h2>
+          "I am Kiran Amin, a dedicated and enthusiastic learner on a journey to
+          become a Full Stack Developer. My passion for web development drives
+          me to constantly explore new technologies and improve my coding
+          skills."
+        </h2>
+        <h1 id="contact-social-follow">Follow on Social</h1>
+        <section id="social-icons">
+          <a href="https://www.linkedin.com/in/kiranamin01/">
+            <img
+              class="social-icon"
+              src="./images/social-icon/linkedin.png"
+              alt="linkedin"
+            />
+          </a>
+          <a href="https://www.instagram.com/kiranamin.img/">
+            <img
+              class="social-icon"
+              src="./images/social-icon/insta.png"
+              alt="instagram"
+            />
+          </a>
+          <a href="https://www.x.com/kiranamin05">
+            <img class="social-icon" src="./images/social-icon/x.png" alt="x" />
+          </a>
+          <a href="https://github.com/kiranamin01">
+            <img
+              class="social-icon"
+              src="./images/social-icon/git.png"
+              alt="github"
+            />
+          </a>
+        </section>
+      </section>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer id="footer">
       <p>&copy; 2025 Kiran Amin</p>
+      <p>All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
