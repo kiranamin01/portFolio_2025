@@ -8,3 +8,5 @@ Improvement in UI
 6. Make whole sitemap in figma
 7. Add inspiration ui on figma
 8. Add Resume in page (interactive)
+
+on 17/02/2025
